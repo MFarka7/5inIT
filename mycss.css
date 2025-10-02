@@ -19,25 +19,25 @@ body{
 }
 
 #TerezaH h2 {
-  color: var(--green);
+  color: green;
 }
 
+
 #TerezaH b {
-  color: var(--pink);
+  color:pink;
 }
 
 #TerezaH i {
-  color: var(--green);
+  color: green;
 }
 
-/* když je b+i dohromady */
-#TerezaH b i,
+
 #TerezaH i b {
-  color: var(--pink); /* nebo green, podle toho co chceš */
+  color: pink;
 }
 
 #TerezaH p {
-  background: var(--beige);
+  background: beige;
   padding: 12px 16px;
   border-radius: 10px;
 }
