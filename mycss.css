@@ -2,6 +2,42 @@ body{
    background-color: initial;
 }
 
+#TerezaH{
+   background-color: initial;
+   font-family: initial;
+   color:initial;
+   
+}
+
+#MartinaV{
+   background-color: initial;
+   font-family: initial;
+   color:initial;
+   
+}
+
+#KaterinaP{
+   background-color: initial;
+   font-family: initial;
+   color:initial;
+   
+}
+
+#HanaI{
+   background-color: initial;
+   font-family: initial;
+   color:initial;
+   
+}
+
+#IrynaP{
+   background-color: initial;
+   font-family: initial;
+   color:initial;
+   
+
+}
+
 #TerezaH {
   display: flex;
   flex-direction: column;
@@ -76,33 +112,4 @@ body{
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-#MartinaV{
-   background-color: initial;
-   font-family: initial;
-   color:initial;
-   
-}
-
-#KaterinaP{
-   background-color: initial;
-   font-family: initial;
-   color:initial;
-   
-}
-
-#HanaI{
-   background-color: initial;
-   font-family: initial;
-   color:initial;
-   
-}
-
-#IrynaP{
-   background-color: initial;
-   font-family: initial;
-   color:initial;
-   
-
 }
