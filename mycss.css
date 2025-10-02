@@ -9,6 +9,39 @@ body{
    
 }
 
+#TerezaH {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  text-align: center;
+  background-color: var(--beige);
+}
+
+#TerezaH h2 {
+  color: var(--green);
+}
+
+#TerezaH b {
+  color: var(--pink);
+}
+
+#TerezaH i {
+  color: var(--green);
+}
+
+/* když je b+i dohromady */
+#TerezaH b i,
+#TerezaH i b {
+  color: var(--pink); /* nebo green, podle toho co chceš */
+}
+
+#TerezaH p {
+  background: var(--beige);
+  padding: 12px 16px;
+  border-radius: 10px;
+}
+
 #MartinaV{
    background-color: initial;
    font-family: initial;
