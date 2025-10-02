@@ -43,7 +43,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 60vh;
+  min-height: 30vh;
   padding: 40px 20px;
   text-align: center;
   background: linear-gradient(135deg, #fefcea, #cc7be0);
