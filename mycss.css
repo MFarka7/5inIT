@@ -2,45 +2,80 @@ body{
    background-color: initial;
 }
 
-#TerezaH{
-   background-color:initial;
-   font-family:initial;
-   color:initial;
-   
-}
-
 #TerezaH {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 50vh;
+  min-height: 60vh;
+  padding: 40px 20px;
   text-align: center;
-  background-color: beige;
+  background: linear-gradient(135deg, #fefcea, #f1da36);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.05);
+  border-radius: 15px;
+  overflow: hidden; 
 }
 
+
 #TerezaH h2 {
-  color: green;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2b7a78;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: fadeSlideIn 1s forwards;
+}
+
+
+#TerezaH p {
+  max-width: 600px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeSlideIn 1s forwards;
+  animation-delay: 1s; 
 }
 
 
 #TerezaH b {
-  color:pink;
+  color: #ff5a5f;
+  font-weight: 600;
 }
 
 #TerezaH i {
-  color: green;
+  color: #2b7a78;
+  font-style: italic;
 }
 
 
 #TerezaH i b {
-  color: rgb(59, 240, 128);
+  color: #3bf080;
+  font-weight: 700;
 }
 
-#TerezaH p {
-  background: beige;
-  padding: 12px 16px;
-  border-radius: 10px;
+
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(var(--translate, 0));
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 #MartinaV{
