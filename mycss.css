@@ -113,3 +113,9 @@ body{
     transform: translateY(0);
   }
 }
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #fefcea, #28573f);
+}
